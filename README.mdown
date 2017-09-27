@@ -188,9 +188,9 @@ example, let's assume that we have some `Widget` with a .h and .m. Our Serenity.
 like this:
 
 ```
-#import <Foundation/Foundation.h>
+# import <Foundation/Foundation.h>
 
-#import <Serenity/Widget.h>
+# import <Serenity/Widget.h>
 ```
 
 Once you've created your framework header file, you need to make it a "public" header. Public
@@ -556,7 +556,7 @@ This is the easy part (and what your third-party developers will have to do). Si
 Import your framework header and you're kickin' ass.
 
 ```obj-c
-#import <Serenity/Serenity.h>
+# import <Serenity/Serenity.h>
 ```
 
 ### Resources
@@ -610,7 +610,7 @@ the pch so that I don't have to clutter up my application's source with framewor
 can obviously choose whatever practice suits your needs.
 
 ```obj-c
-#import <Serenity/Serenity.h>
+# import <Serenity/Serenity.h>
 ```
 
 ### Step 4-b: Adding Resources
